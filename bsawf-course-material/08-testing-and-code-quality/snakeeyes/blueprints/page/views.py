@@ -8,6 +8,11 @@ def home():
     return render_template('page/home.html')
 
 
+@page.route('/')
+def cash_flow():
+    return render_template('page/cash_flow.html')
+
+
 @page.route('/terms')
 def terms():
     return render_template('page/terms.html')
