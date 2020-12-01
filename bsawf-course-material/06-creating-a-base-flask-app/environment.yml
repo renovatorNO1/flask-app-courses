@@ -1,0 +1,10 @@
+name: flask-env
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - flask=1.0.1=py_0
+  - werkzeung=0.14.1=py_0
+  - gunicorn=19.4.5=py37_0
+  - python=3.7.5=h6e4f718_3
