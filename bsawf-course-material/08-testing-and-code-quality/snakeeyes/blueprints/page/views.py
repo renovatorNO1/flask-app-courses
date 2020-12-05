@@ -8,7 +8,7 @@ def home():
     return render_template('page/home.html')
 
 
-@page.route('/')
+@page.route('/cash_flow')
 def cash_flow():
     return render_template('page/cash_flow.html')
 
